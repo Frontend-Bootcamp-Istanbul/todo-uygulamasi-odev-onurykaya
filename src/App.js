@@ -105,7 +105,7 @@ class App extends Component {
                 onCheckedToggle={this.toggleCompleteStatus} />
 
             <TodoList
-                title="Tamamlanmış Todolar"
+                title={"Tamamlanmış Todolar"} 
                 todos={this.state.todos.filter((todo)=>{
                     return todo.checked === true
                 })}
